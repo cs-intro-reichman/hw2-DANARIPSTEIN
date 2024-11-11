@@ -10,8 +10,8 @@ public class Cheers {
         while (i<length) {
                 String aOrAn = "a ";
                 char currentChar = s.charAt(i);
-                if(currentChar == 'A' || currentChar == 'E' || currentChar =='I' ||currentChar =='U' ||
-                currentChar =='O') {
+                if(currentChar == 'A' || currentChar == 'E' || currentChar =='F' ||currentChar =='H' || currentChar == 'I' || currentChar == 'L' || currentChar == 'M' || currentChar == 'N' ||
+                currentChar =='O' || currentChar == 'R' || currentChar == 'X' || currentChar == 'S') {
                 aOrAn = "an ";
                 }
                 System.out.println("Give me " + aOrAn + currentChar + ": " + currentChar + "!");
