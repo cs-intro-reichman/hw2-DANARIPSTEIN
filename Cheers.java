@@ -5,16 +5,13 @@ public class Cheers {
         s = s.toUpperCase();
         int N = Integer.parseInt(args[1]);
         int i = 0;
-        int length =s.length();
-        while (0<length) {
+        while (i<s.length()) {
                 String aOrAn = "a ";
-                if(s.charAt(i) == 'A' || s.charAt(i) == 'E' || s.charAt(i) == 'F' || s.charAt(i) == 'H' ||
-                 s.charAt(i) =='I' || s.charAt(i) =='L' || s.charAt(i) =='M' || s.charAt(i) =='N' ||
-                  s.charAt(i) =='O' ||s.charAt(i) == 'R' ||s.charAt(i) =='S' || s.charAt(i) =='X') {
+                if(s.charAt(i) == 'A' || s.charAt(i) == 'E' || s.charAt(i) =='I' || s.charAt(i) =='U' ||
+                  s.charAt(i) =='O') {
                 aOrAn = "an ";
                 }
                 System.out.println("Give me " + aOrAn +  s.charAt(i) + ": " + s.charAt(i) + "!");
-                length--;
                 i++;
         }
         System.out.println ("What does that spell?");
