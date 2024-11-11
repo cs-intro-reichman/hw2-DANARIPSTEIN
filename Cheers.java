@@ -2,6 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
         String s = args[0];
+        s = s.toUpperCase();
         int N = Integer.parseInt(args[1]);
         int i = 0;
         int length =s.length();
@@ -12,7 +13,7 @@ public class Cheers {
                   s.charAt(i) =='O' ||s.charAt(i) == 'R' ||s.charAt(i) =='S' || s.charAt(i) =='X') {
                 aOrAn = "an ";
                 }
-                System.out.println("Give me " + aOrAn + " " + s.charAt(i) + ": " + s.charAt(i) + "!");
+                System.out.println("Give me " + aOrAn +  s.charAt(i) + ": " + s.charAt(i) + "!");
                 length--;
                 i++;
         }
