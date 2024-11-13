@@ -6,14 +6,14 @@ public class CalcPi {
 		double odd = 1.0;
 		for (int i = 0; i < N; i++) {
 			if (i % 2 == 0) {
-				approximated = approximated + Math.pow((odd), (-1));
+				approximated = approximated + ( 1 / odd);
 			} else {
-				approximated = approximated - Math.pow((odd), (-1));
+				approximated = approximated - ( 1 / odd);
 			}
 			odd = odd + 2.0;
 		}
 		approximated = (approximated) * 4.0; //sa
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated:  " + (double) approximated);
+		System.out.println("pi, approximated:   " + (double) approximated);
 	}
 }
