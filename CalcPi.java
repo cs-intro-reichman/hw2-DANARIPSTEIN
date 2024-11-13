@@ -12,7 +12,7 @@ public class CalcPi {
 			}
 			odd = odd + 2.0;
 		}
-		approximated = (approximated) * 4.0;
+		approximated = (approximated) * 4.0; //sa
 		System.out.println("pi according to Java: " + Math.PI);
 		System.out.println("pi, approximated:  " + (double) approximated);
 	}
