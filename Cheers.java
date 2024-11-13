@@ -8,7 +8,7 @@ public class Cheers {
         int length = s.length();
 
         while (i<length) {
-                String aOrAn = "a ";
+                String aOrAn = "a  ";
                 char currentChar = s.charAt(i);
                 if(currentChar == 'A' || currentChar == 'E' || currentChar =='F' ||currentChar =='H' || currentChar == 'I' || currentChar == 'L' || currentChar == 'M' || currentChar == 'N' ||
                 currentChar =='O' || currentChar == 'R' || currentChar == 'X' || currentChar == 'S') {
